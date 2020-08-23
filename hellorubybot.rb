@@ -18,7 +18,7 @@ bot.listen do |message|
                     bot.api.send_audio(chat_id: message.chat.id, audio: Faraday::UploadIO.new('ruby.mp3', 'audio/mp3'))
                 when '/document'
                     # https://www.ruby-lang.org/en/about/logo/
-                    bot.api.send_audio(chat_id: message.chat.id, audio: Faraday::UploadIO.new('ruby.pdf', 'application/pdf'))
+                    bot.api.send_document(chat_id: message.chat.id, audio: Faraday::UploadIO.new('ruby.pdf', 'application/pdf'))
 
                 when '/map'
                     bot.api.send_location(chat_id: message.chat.id, latitude: 37.414487, longitude: -122.077409)
