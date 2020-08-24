@@ -12,7 +12,7 @@
 ```bash
 $ bundle
 ```
-# Start Bot
+## Start Bot
 ```bash
 ruby hellorubybot.rb
 ```
@@ -21,9 +21,9 @@ When committing changes processes needs to be re-executed.
 # Resources
 <ul>
     <li><a href="https://www.ruby-lang.org/en/about/logo/">Ruby Logo</a></li>
-    <li><a href="https://freesound.org/people/pepezabala/sounds/122920/"></a>Ruby Audio</li>
+    <li><a href="https://freesound.org/people/pepezabala/sounds/122920/">Ruby Audio</a></li>
 </ul>
 
 # Hosting on Heroku
-Copy and paste to <code>Procfile</code> file.
+Procfile<br>
 <code>worker: ruby hellorubybot.rb</code>
