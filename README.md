@@ -1,5 +1,5 @@
 # Hello Ruby Bot
-<p>Examples programming Telegram Bot using <a href="https://github.com/atipugin/telegram-bot-ruby">telegram-bot-ruby</a></p>
+<p>Programming examples for Telegram Bot development using <a href="https://github.com/atipugin/telegram-bot-ruby">telegram-bot-ruby</a></p>
 
 ## To Use
 <ul>
