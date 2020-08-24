@@ -14,7 +14,7 @@ $ bundle
 ```
 ## Start Bot
 ```bash
-ruby hellorubybot.rb
+$ ruby hellorubybot.rb
 ```
 When committing changes processes needs to be re-executed.
 
